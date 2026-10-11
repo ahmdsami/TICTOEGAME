@@ -4,6 +4,7 @@
 using std::cout;
 using std::cin;
 using std::endl;
+using std::string;
 
 class TicToeGame {
     private:
@@ -119,6 +120,7 @@ class TicToeGame {
 
 
 int main() {
+    cout << "Welcome to XO Game";
     bool complete = true;
     TicToeGame Game;
 
